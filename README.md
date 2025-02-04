@@ -11,58 +11,67 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 
 ---
 
-## 📂 <span style="color:purple">Setting Up SQL on Ubuntu</span>
+## Setting Up SQL on Ubuntu
 
 1. **Update System and Install MySQL:**
    ```bash
-   sudo apt update
-   sudo apt install mysql-server -y
-   sudo systemctl start mysql
-   sudo systemctl enable mysql
+   ubuntu@ubuntu:~$ sudo apt update
+   ubuntu@ubuntu:~$ sudo apt install mysql-server -y
    ```
+
+---
 
 2. **Access MySQL:**
    ```bash
-   sudo mysql
+   ubuntu@ubuntu:~$ sudo mysql
    ```
+![opening mysql requires root access](https://github.com/user-attachments/assets/477b935b-a91b-47c5-8345-b9c7b6dff6c9)
 
 ---
 
-## 🔢 <span style="color:purple">Creating Databases and Tables</span>
+## Creating Databases and Tables
 
 1. **Create a Database:**
    ```sql
-   CREATE DATABASE <span style="color:orange">my_database</span>;
+   mysql> create database 
    ```
-
-2. **Use the Database:**
-   ```sql
-   USE <span style="color:orange">my_database</span>;
-   ```
-
-3. **Create a Table with TRUE/FALSE (BOOLEAN) Column:**
-   ```sql
-   CREATE TABLE <span style="color:orange">users</span> (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       name VARCHAR(100),
-       is_active BOOLEAN
-   );
-   ```
+![creating   showing databases](https://github.com/user-attachments/assets/ba67f207-6cdd-4da0-bbb2-c63e77f15237)
 
 ---
 
-## 🔄 <span style="color:purple">Inserting and Updating Data</span>
+2. **Use the Database:**
+   ```sql
+   mysql> use 
+   ```
+![creating first mysql table 2](https://github.com/user-attachments/assets/22fa53a2-2cae-4f9a-8c67-34738a8031ed)
+
+---
+
+3. **Altering a table to add a TRUE/FALSE (BOOLEAN) Column:**
+   ```sql
+   mysql> alter table yourtable_name add newcolumn_name boolean;  
+   ```
+![BOOLEAN](https://github.com/user-attachments/assets/fc24e0bc-3e00-4246-add4-91135250f3c1)
+![adding TRUE and FALSE stayments to multiple columns at once](https://github.com/user-attachments/assets/e36af45d-217b-4da8-9c6b-dc98b908565b)
+
+---
+
+## 🔄 Inserting and Updating Data
 
 1. **Insert Data into Table:**
    ```sql
-   INSERT INTO <span style="color:orange">users</span> (name, is_active) VALUES ('Alice', TRUE);
-   INSERT INTO <span style="color:orange">users</span> (name, is_active) VALUES ('Bob', FALSE);
+   mysql> insert into yourtable_name values (1, "default route", "location", "item");
    ```
+![inserting data into our table](https://github.com/user-attachments/assets/b4412f65-cf16-4f9e-bb78-bc7ad01ba337)
+![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/84f3f9af-fed7-4511-baa5-7630c86d8aab)
+
+---
 
 2. **Update a Column:**
    ```sql
    UPDATE <span style="color:orange">users</span> SET is_active = TRUE WHERE name = 'Bob';
    ```
+![updating a column ID number](https://github.com/user-attachments/assets/038b949a-1137-422d-816c-d32e1feab236)
 
 ---
 
