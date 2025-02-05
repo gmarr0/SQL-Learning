@@ -96,7 +96,7 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    mysql> select column_name from table_name;
    ```
 
-    -select = we want to select data
+- select = we want to select data  
    
 ![specifying a specific category inside our database](https://github.com/user-attachments/assets/4b20401e-eb35-44a2-ad82-195103399c1e)
 ```sql
