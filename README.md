@@ -33,16 +33,22 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 
 1. **Create a Database:**
    ```sql
-   mysql> create database 
+   mysql> create database; 
    ```
+   -In SQL a ";" is always needed at the end of the command to let it know your finished with your request.
+   
+   -When you enter a successful query you should get a message saying "Query OK, 1 row affected (0.01 sec)"
+   
 ![creating   showing databases](https://github.com/user-attachments/assets/ba67f207-6cdd-4da0-bbb2-c63e77f15237)
 
 ---
 
 2. **Use the Database:**
    ```sql
-   mysql> use 
+   mysql> use; 
    ```
+   -If successful should say : "Database Changed"
+
 ![creating first mysql table 2](https://github.com/user-attachments/assets/22fa53a2-2cae-4f9a-8c67-34738a8031ed)
 
 ---
@@ -51,7 +57,11 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    ```sql
    mysql> alter table yourtable_name add newcolumn_name boolean;  
    ```
+
 ![BOOLEAN](https://github.com/user-attachments/assets/fc24e0bc-3e00-4246-add4-91135250f3c1)
+
+-use "alter" to alter the table and "add" to a new column and "boolean" for true or false 
+
 ![adding TRUE and FALSE stayments to multiple columns at once](https://github.com/user-attachments/assets/e36af45d-217b-4da8-9c6b-dc98b908565b)
 
 ---
@@ -62,7 +72,9 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    ```sql
    mysql> insert into yourtable_name values (1, "default route", "location", "item");
    ```
+
 ![inserting data into our table](https://github.com/user-attachments/assets/b4412f65-cf16-4f9e-bb78-bc7ad01ba337)
+
 ![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/84f3f9af-fed7-4511-baa5-7630c86d8aab)
 
 ---
@@ -71,6 +83,7 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    ```sql
    mysql> update yourtable_name set id = 5 where id = 6;
    ```
+
 ![updating a column ID number](https://github.com/user-attachments/assets/038b949a-1137-422d-816c-d32e1feab236)
 
 ---
@@ -81,10 +94,16 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    ```sql
    mysql> select column_name from table_name;
    ```
+
+    -select = we want to select data
+   
 ![specifying a specific category inside our database](https://github.com/user-attachments/assets/4b20401e-eb35-44a2-ad82-195103399c1e)
 ```sql
-mysql
+mysql select * from yourtable_name where column =  "the column name" or column = "the column name";
 ```
+
+- can use "or" when querying specific data to specifically search for multiple types of data
+
 ![specifiying columns in data base with WHERE and choosing between two with OR](https://github.com/user-attachments/assets/a1bdc4c3-ac97-4813-af18-63b32caa606a)
 
 2. **Search for Specific Values:**
