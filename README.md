@@ -57,10 +57,11 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
    ```sql
    mysql> alter table yourtable_name add newcolumn_name boolean;  
    ```
+-use "alter" to alter the table and "add" to a new column and "boolean" for true or false 
 
 ![BOOLEAN](https://github.com/user-attachments/assets/fc24e0bc-3e00-4246-add4-91135250f3c1)
 
--use "alter" to alter the table and "add" to a new column and "boolean" for true or false 
+-use "update" to update a column and "where" to specify which column your updating.
 
 ![adding TRUE and FALSE stayments to multiple columns at once](https://github.com/user-attachments/assets/e36af45d-217b-4da8-9c6b-dc98b908565b)
 
