@@ -69,18 +69,19 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 
 2. **Update a Column:**
    ```sql
-   UPDATE <span style="color:orange">users</span> SET is_active = TRUE WHERE name = 'Bob';
+   mysql> update yourtable_name set id = 5 where id = 6;
    ```
 ![updating a column ID number](https://github.com/user-attachments/assets/038b949a-1137-422d-816c-d32e1feab236)
 
 ---
 
-## 🔍 <span style="color:purple">Querying Data</span>
+## 🔍 Querying Data
 
 1. **Select Specific Columns:**
    ```sql
    SELECT name FROM <span style="color:orange">users</span>;
    ```
+![specifying a specific category inside our database](https://github.com/user-attachments/assets/4b20401e-eb35-44a2-ad82-195103399c1e)
 
 2. **Search for Specific Values:**
    ```sql
