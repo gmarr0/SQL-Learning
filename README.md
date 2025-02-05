@@ -79,9 +79,13 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 
 1. **Select Specific Columns:**
    ```sql
-   SELECT name FROM <span style="color:orange">users</span>;
+   mysql> select column_name from table_name;
    ```
 ![specifying a specific category inside our database](https://github.com/user-attachments/assets/4b20401e-eb35-44a2-ad82-195103399c1e)
+```sql
+mysql
+```
+![specifiying columns in data base with WHERE and choosing between two with OR](https://github.com/user-attachments/assets/a1bdc4c3-ac97-4813-af18-63b32caa606a)
 
 2. **Search for Specific Values:**
    ```sql
