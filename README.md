@@ -154,11 +154,6 @@ mysql> select * from table_name order by column asc;
 
 1. **Delete a Column from a Table:**
    ```sql
-   ALTER TABLE <span style="color:orange">users</span> DROP COLUMN is_active;
-   ```
-
-2. **Delete Data from a Table:**
-   ```sql
    mysql> delete from yourtable_name where column =  "column item";
    ```
 ![deleting columns from database](https://github.com/user-attachments/assets/23d94232-5c8d-4823-b8d6-221fe2a42251)
