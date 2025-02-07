@@ -163,15 +163,6 @@ mysql> select * from table_name order by column asc;
    ```
 ![deleting columns from database](https://github.com/user-attachments/assets/23d94232-5c8d-4823-b8d6-221fe2a42251)
 
-3. **Drop a Table:**
-   ```sql
-   DROP TABLE <span style="color:orange">users</span>;
-   ```
-
-4. **Drop a Database:**
-   ```sql
-   DROP DATABASE <span style="color:orange">my_database</span>;
-   ```
 
 ---
 
