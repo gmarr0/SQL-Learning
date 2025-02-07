@@ -114,8 +114,9 @@ mysql select * from yourtable_name where column =  "the column name" or column =
 
 3. **Show All Databases:**
    ```sql
-   SHOW DATABASES;
+   mysql> show databases;
    ```
+![showing data bases](https://github.com/user-attachments/assets/5f25a083-b9c3-4bd1-8388-7499d86c7d9e)
 
 4. **Show All Tables in Current Database:**
    ```sql
@@ -124,8 +125,9 @@ mysql select * from yourtable_name where column =  "the column name" or column =
 
 5. **Describe Table Structure:**
    ```sql
-   DESCRIBE <span style="color:orange">users</span>;
+   mysql> describe table_name;
    ```
+![describing table to see contents inside](https://github.com/user-attachments/assets/85aed634-3cfd-4751-8230-e51c11cfe2de)
 
 ---
 
