@@ -3,11 +3,7 @@ Learning the basics of Structure Query Language, creating databases, tables, as 
 
 ## Learning SQL on Ubuntu
 
-This repository documents my journey learning SQL on Ubuntu. It covers everything from creating databases to manipulating and querying data. Below are the key concepts and commands I learned.
-
-# Learning SQL on Ubuntu
-
-This repository documents my journey learning **<span style="color:blue">SQL</span>** on **<span style="color:green">Ubuntu</span>**. It covers everything from creating databases to manipulating and querying data. Below are the key concepts and commands I learned.
+This repository documents my journey learning SQL on an Ubuntu Virtual machine. It covers everything from creating databases to manipulating and querying data. Below are the key concepts and commands I learned.
 
 ---
 
