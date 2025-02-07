@@ -121,6 +121,15 @@ mysql> select device from jparo_gadgets where price < 500;
 ![searching for gadgets below 500 dollars with the LESS THAN symbol](https://github.com/user-attachments/assets/8a2c7551-f259-4ad4-b7f0-5ad56a9a9fdb)
 
 - you can use " < " less than or " > " more than to deep dive even further to specify data with numbers or values
+
+```sql
+mysql> select * from table_name order by column asc;
+```
+
+![looking at table with prices from lowest to highest with ORDER BY price ASC](https://github.com/user-attachments/assets/a4681673-72c3-4645-80f2-47cae330d005)
+
+- use "order" to put columns in order and "asc" for ascending to count down from lowest to highest or "desc" to go from highest to lowest
+
 3. **Show All Databases:**
    ```sql
    mysql> show databases;
@@ -139,7 +148,7 @@ mysql> select device from jparo_gadgets where price < 500;
 ![describing table to see contents inside](https://github.com/user-attachments/assets/85aed634-3cfd-4751-8230-e51c11cfe2de)
 
 ---
-
+ 
 ## 🔎 <span style="color:purple">Deleting Data</span>
 
 1. **Delete a Column from a Table:**
