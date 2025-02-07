@@ -83,7 +83,7 @@ This repository documents my journey learning SQL on an Ubuntu Virtual machine. 
    mysql> update yourtable_name set id = 5 where id = 6;
    ```
 
-![updating a column ID number](https://github.com/user-attachments/assets/038b949a-1137-422d-816c-d32e1feab236)
+![update a column](https://github.com/user-attachments/assets/7112fae7-49f9-44c1-b2cb-659b6ee5562f)
 
 ---
 
@@ -149,10 +149,11 @@ mysql> select device from jparo_gadgets where price < 500;
 
 2. **Delete Data from a Table:**
    ```sql
-   DELETE FROM <span style="color:orange">users</span> WHERE name = 'Alice';
+   mysql> delete from yourtable_name where column =  "column item";
    ```
 ![deleting columns from database](https://github.com/user-attachments/assets/23d94232-5c8d-4823-b8d6-221fe2a42251)
 
+- To delete items from tables
 3. **Drop a Table:**
    ```sql
    DROP TABLE <span style="color:orange">users</span>;
