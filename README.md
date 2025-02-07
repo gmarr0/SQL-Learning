@@ -138,8 +138,9 @@ mysql> select * from table_name order by column asc;
 
 4. **Show All Tables in Current Database:**
    ```sql
-   SHOW TABLES;
+   mysql> show tables;
    ```
+![showing tables](https://github.com/user-attachments/assets/b3e9345c-72cc-44d3-a094-6615ad9dd6b6)
 
 5. **Describe Table Structure:**
    ```sql
