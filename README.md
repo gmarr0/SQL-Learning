@@ -57,9 +57,6 @@ This repository documents my journey learning SQL on an Ubuntu Virtual machine. 
 
 ![BOOLEAN](https://github.com/user-attachments/assets/fc24e0bc-3e00-4246-add4-91135250f3c1)
 
--use "update" to update a column and "where" to specify which column your updating.
-
-![adding TRUE and FALSE stayments to multiple columns at once](https://github.com/user-attachments/assets/e36af45d-217b-4da8-9c6b-dc98b908565b)
 
 ---
 
@@ -75,10 +72,16 @@ This repository documents my journey learning SQL on an Ubuntu Virtual machine. 
 ![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/9eff248d-26b7-4da9-8c09-80097576389b)
 
 
+
 -  **The " , " is to let sql know we're not done with our columns yet letting us add multiple lines at once**
 ---
 
 2. **Update a Column:**
+-use "update" to update a column and "where" to specify which column your updating.
+
+![adding TRUE and FALSE stayments to multiple columns at once](https://github.com/user-attachments/assets/e36af45d-217b-4da8-9c6b-dc98b908565b)
+
+
    ```sql
    mysql> update yourtable_name set id = 5 where id = 6;
    ```
