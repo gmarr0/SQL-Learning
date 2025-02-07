@@ -115,11 +115,12 @@ mysql select * from yourtable_name where column =  "the column name" or column =
    ```
 
 ```sql
-   SELECT * FROM <span style="color:orange">users</span> WHERE is_active = TRUE;
-   ```
+mysql> select device from jparo_gadgets where price < 500;
+```
 
 ![searching for gadgets below 500 dollars with the LESS THAN symbol](https://github.com/user-attachments/assets/8a2c7551-f259-4ad4-b7f0-5ad56a9a9fdb)
 
+- you can use " < " less than or " > " more than to deep dive even further to specify data with numbers or values
 3. **Show All Databases:**
    ```sql
    mysql> show databases;
