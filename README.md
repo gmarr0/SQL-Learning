@@ -79,7 +79,7 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 ![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/9eff248d-26b7-4da9-8c09-80097576389b)
 
 
--  **The " , " is to let sql know we're not done with our columns yet**
+-  **The " , " is to let sql know we're not done with our columns yet letting us add multiple lines at once**
 ---
 
 2. **Update a Column:**
@@ -109,6 +109,9 @@ mysql select * from yourtable_name where column =  "the column name" or column =
 
 ![specifiying columns in data base with WHERE and choosing between two with OR](https://github.com/user-attachments/assets/a1bdc4c3-ac97-4813-af18-63b32caa606a)
 
+![selecting everything from a table using asterisk](https://github.com/user-attachments/assets/91a2c089-24bc-478f-b1b9-f4ea33dfe952)
+
+- 
 2. **Search for Specific Values:**
    ```sql
    SELECT * FROM <span style="color:orange">users</span> WHERE is_active = TRUE;
@@ -144,6 +147,7 @@ mysql select * from yourtable_name where column =  "the column name" or column =
    ```sql
    DELETE FROM <span style="color:orange">users</span> WHERE name = 'Alice';
    ```
+![deleting columns from database](https://github.com/user-attachments/assets/23d94232-5c8d-4823-b8d6-221fe2a42251)
 
 3. **Drop a Table:**
    ```sql
