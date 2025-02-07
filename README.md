@@ -76,8 +76,10 @@ This repository documents my journey learning **<span style="color:blue">SQL</sp
 
 ![inserting data into our table](https://github.com/user-attachments/assets/b4412f65-cf16-4f9e-bb78-bc7ad01ba337)
 
-![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/84f3f9af-fed7-4511-baa5-7630c86d8aab)
+![adding multiple lines columns at once inside our table](https://github.com/user-attachments/assets/9eff248d-26b7-4da9-8c09-80097576389b)
 
+
+-  **The " , " is to let sql know we're not done with our columns yet**
 ---
 
 2. **Update a Column:**
