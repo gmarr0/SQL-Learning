@@ -107,11 +107,18 @@ mysql select * from yourtable_name where column =  "the column name" or column =
 
 ![selecting everything from a table using asterisk](https://github.com/user-attachments/assets/91a2c089-24bc-478f-b1b9-f4ea33dfe952)
 
-- 
+- using an Asterisk (*) asks to output all the contents inside.
+  
 2. **Search for Specific Values:**
    ```sql
    SELECT * FROM <span style="color:orange">users</span> WHERE is_active = TRUE;
    ```
+
+```sql
+   SELECT * FROM <span style="color:orange">users</span> WHERE is_active = TRUE;
+   ```
+
+![searching for gadgets below 500 dollars with the LESS THAN symbol](https://github.com/user-attachments/assets/8a2c7551-f259-4ad4-b7f0-5ad56a9a9fdb)
 
 3. **Show All Databases:**
    ```sql
